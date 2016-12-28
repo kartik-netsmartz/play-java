@@ -11,10 +11,16 @@
  *@
 @main("Welcome to Play") {
 
-    @*
-     * Get an `Html` object by calling the built-in Play welcome
-     * template and passing a `String` message.
-     *@
-    @play20.welcome(message, style = "Java")
+<form action="@routes.HomeController.uploadAndReverse()" method="post" enctype="multipart/form-data">
+    <h1>Please select a .txt file</h1>
 
+    <input type="file" name="text">
+    </br>
+    </br>
+    <button name="submit" value="submit" type="submit">Submit</button>
+</form>
+
+@if(flash.containsKey("error")){
+    <label style="color:red">@flash.get("error")</label>
+}
 }
