@@ -26,9 +26,6 @@ public class FileServices {
         //remove the last \n
         strBuilder.deleteCharAt(strBuilder.length()-1);
 
-        //TODO: Remove it after testing
-        System.out.print(strBuilder.toString().trim());
-
         input.close();
         return strBuilder.toString().trim();
     }
