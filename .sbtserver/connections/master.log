@@ -1,40 +1,13 @@
-New log file opened at Tue Dec 27 11:03:18 IST 2016 by 7912@NTZ-Kartikraina
-Taking next connection to: 50426
-New client attempting to connect on port: 50427-50426
-  Address = /192.168.11.85:50426
-This client on port 50427 has uuid 14ba44f4-d985-4b63-be0b-98d3b09c7125 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-14ba44f4-d985-4b63-be0b-98d3b09c7125
-Taking next connection to: 50426
+New log file opened at Tue Dec 27 18:57:14 IST 2016 by 6884@NTZ-Kartikraina
+Taking next connection to: 50223
+New client attempting to connect on port: 50224-50223
+  Address = /192.168.11.85:50223
+This client on port 50224 has uuid 61dc77a0-305a-4b54-ade8-9c5d6effb977 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-61dc77a0-305a-4b54-ade8-9c5d6effb977
+Taking next connection to: 50223
 Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50426
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 6884@NTZ-Kartikraina logs at Tue Dec 27 19:00:17 IST 2016, goodbye.
