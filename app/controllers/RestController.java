@@ -11,10 +11,17 @@ import java.io.File;
 import java.io.IOException;
 
 /**
+ * This is a REST Controller
  * Created by kartik.raina on 12/28/2016.
  */
 public class RestController extends Controller{
 
+    /**
+     * This Action handles the request for getting the .txt file
+     * reversing the content of the file and then sending the
+     * converted file back.
+     * @return @{@link Result}
+     */
     public Result uploadAndReverse(){
         Http.MultipartFormData<File> body = request().body().asMultipartFormData();
         if(body.getFiles().size() <= 0){
@@ -38,7 +45,6 @@ public class RestController extends Controller{
                     return badRequest("Please check your file!!!");
                 }
 
-                // No check required for null as .txt check has been applied above.
                 outgoingFile = fileServices.setFileData(stringServicesObj.reverseString(incomingFileData), textFile.getFilename());
 
                 response().setHeader("Content-disposition","attachment; filename="+outgoingFile.getName());
