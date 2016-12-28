@@ -59,7 +59,6 @@ public class HomeController extends Controller {
                    return redirect("/");
                 }
 
-                // No check required for null as .txt check has been applied above.
                 outgoingFile = fileServices.setFileData(stringServicesObj.reverseString(incomingFileData), textFile.getFilename());
 
                 response().setHeader("Content-disposition","attachment; filename="+outgoingFile.getName());
